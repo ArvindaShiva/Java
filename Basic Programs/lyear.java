@@ -3,7 +3,7 @@ public class lyear{
   public static void main(String[] args){
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter the value of the year");
-    year=sc.input();
+    year=sc.nextInt();
     if (year%4==0 || year % 100 ==0){
       System.out.println(year+" is a leap year");
     }else{
