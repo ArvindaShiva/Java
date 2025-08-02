@@ -1,11 +1,12 @@
-import java.io.*;
+import java.util.Scanner;
+
 public class Multiply{
 	public static void main(String[] args){
-		int a=12;
-		int b=13;
-		int c=a*b;
-		System.out.print("The Product: ");
-		System.out.print(c);
-}
-
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num=sc.nextInt();
+		for(int i=1;i<=10;i++){
+			System.out.println(num + " x " + i + " = " + (num * i));
+		}
+	}
 }
