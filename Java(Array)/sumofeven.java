@@ -13,6 +13,7 @@ public class sumofeven{
     for(int i=0;i<num;i=i+2){
        sum+=Arr[i];
    }
-   System.out.println("Sum of elements present in even place: "+ sum)
+   System.out.println("Sum of elements present in even position: "+ sum);
  }
+
 }
