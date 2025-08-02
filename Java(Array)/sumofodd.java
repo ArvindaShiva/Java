@@ -13,6 +13,7 @@ public class sumofodd{
     for(int i=1;i<num;i=i+2){
        sum+=Arr[i];
    }
-   System.out.println("Sum of elements present in odd place: "+ sum)
+   System.out.println("Sum of elements present in odd position: "+ sum);
  }
+
 }
